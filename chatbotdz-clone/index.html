@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Chatbot DZ - درّب ذكاءك الاصطناعي كموظف محترف. منصة شات بوت ذكاء اصطناعي للتجارة الإلكترونية الجزائرية" />
+  <title>Chatbot DZ - ذكاء اصطناعي لمتجرك</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header id="header">
+    <div class="container header-inner">
+      <div class="logo">
+        <div class="logo-icon">🤖</div>
+        <span class="logo-text">Chatbot <span class="logo-accent">DZ</span></span>
+      </div>
+      <nav class="nav-links" id="navLinks">
+        <a href="#features">المميزات</a>
+        <a href="#ai-studio">استوديو الذكاء</a>
+        <a href="#integrations">التكاملات</a>
+        <a href="#pricing">الأسعار</a>
+        <a href="#faq">الأسئلة</a>
+        <a href="#demo">معاينة</a>
+      </nav>
+      <div class="header-actions">
+        <div class="lang-switch">
+          <button class="lang-btn active" id="btnAr">العربية</button>
+          <button class="lang-btn" id="btnFr">FR</button>
+        </div>
+        <a href="#" class="btn-login">تسجيل الدخول</a>
+        <button class="hamburger" id="hamburger" aria-label="القائمة">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg-gradient"></div>
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge">✨ الذكاء والاستراتيجية</div>
+        <h1 class="hero-title">درّب ذكاءك الاصطناعي<br /><span class="gradient-text">كموظف محترف</span></h1>
+        <p class="hero-desc">لا تدع الذكاء الاصطناعي يرتجل. مع الاستوديو الخاص بنا، تحتفظ بالسيطرة الكاملة على ما يقوله وكيف يبيع.</p>
+        <div class="hero-btns">
+          <a href="#" class="btn-primary">ابدأ مجاناً 🚀</a>
+          <a href="#demo" class="btn-outline">مشاهدة الديمو ▶</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><strong>+500</strong><span>متجر نشط</span></div>
+          <div class="stat-divider"></div>
+          <div class="stat"><strong>94%</strong><span>ردود ذكاء اصطناعي</span></div>
+          <div class="stat-divider"></div>
+          <div class="stat"><strong>24/7</strong><span>متاح دائماً</span></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="dashboard-card main-card">
+          <div class="card-header-bar">
+            <div class="dot red"></div><div class="dot yellow"></div><div class="dot green"></div>
+            <span class="card-title-bar">لوحة التحكم</span>
+          </div>
+          <div class="dash-stats-row">
+            <div class="dash-stat">
+              <div class="dash-num">1,247</div>
+              <div class="dash-label">محادثة اليوم</div>
+              <div class="dash-up">↑ 12%</div>
+            </div>
+            <div class="dash-stat">
+              <div class="dash-num">94%</div>
+              <div class="dash-label">ذكاء اصطناعي</div>
+              <div class="dash-up">↑ 3%</div>
+            </div>
+            <div class="dash-stat">
+              <div class="dash-num">23%</div>
+              <div class="dash-label">معدل التحويل</div>
+              <div class="dash-up">↑ 5%</div>
+            </div>
+          </div>
+          <div class="dash-chart">
+            <div class="chart-bar" style="height:40%"></div>
+            <div class="chart-bar" style="height:65%"></div>
+            <div class="chart-bar" style="height:50%"></div>
+            <div class="chart-bar highlight" style="height:85%"></div>
+            <div class="chart-bar" style="height:70%"></div>
+            <div class="chart-bar" style="height:90%"></div>
+            <div class="chart-bar" style="height:75%"></div>
+          </div>
+        </div>
+        <div class="floating-card fc1">
+          <span class="fc-icon">📦</span>
+          <span class="fc-text">الكتالوج والمخزون</span>
+        </div>
+        <div class="floating-card fc2">
+          <span class="fc-icon">🌍</span>
+          <span class="fc-text">Langue: FR / دارجة</span>
+        </div>
+        <div class="floating-card fc3">
+          <span class="fc-icon">✅</span>
+          <span class="fc-text">طلب جديد من البوت!</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURES ===== -->
+  <section class="features section" id="features">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">المميزات</div>
+        <h2 class="section-title">كل ما تحتاجه للبيع بذكاء</h2>
+        <p class="section-desc">أدوات متكاملة تجعل بوتك يعمل كأفضل موظف مبيعات لديك</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card fade-in">
+          <div class="feat-icon" style="background:#EFF6FF">🎯</div>
+          <h3>شخصية البائع</h3>
+          <p>حدد هوية وأسلوب البوت بالكامل، من نبرة الصوت إلى طريقة الرد مع كل نوع من العملاء</p>
+        </div>
+        <div class="feature-card fade-in">
+          <div class="feat-icon" style="background:#F0FDF4">📚</div>
+          <h3>مكتبة السيناريوهات</h3>
+          <p>أضف سيناريوهات البيع، الاعتراضات الشائعة، وردود الفعل الجاهزة لكل موقف</p>
+        </div>
+        <div class="feature-card fade-in">
+          <div class="feat-icon" style="background:#FFF7ED">🔄</div>
+          <h3>إعادة الصياغة بالذكاء</h3>
+          <p>دع الذكاء الاصطناعي يكيّف ردوده حسب السياق مع الحفاظ على هويتك وأسلوبك</p>
+        </div>
+        <div class="feature-card fade-in">
+          <div class="feat-icon" style="background:#FDF4FF">🌍</div>
+          <h3>دعم اللهجات المحلية</h3>
+          <p>يتحدث البوت بالدارجة الجزائرية أو أي لهجة محلية تختارها بطلاقة تامة</p>
+        </div>
+        <div class="feature-card fade-in">
+          <div class="feat-icon" style="background:#FFF1F2">📊</div>
+          <h3>تحليلات المحادثات</h3>
+          <p>تتبع أداء البوت ومعدلات التحويل في الوقت الفعلي مع تقارير تفصيلية يومية</p>
+        </div>
+        <div class="feature-card fade-in">
+          <div class="feat-icon" style="background:#ECFDF5">🔗</div>
+          <h3>تكامل سريع</h3>
+          <p>اربط مع فيسبوك، انستغرام، وواتساب في دقائق بدون خبرة تقنية</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== AI STUDIO ===== -->
+  <section class="ai-studio section" id="ai-studio">
+    <div class="container">
+      <div class="studio-inner">
+        <div class="studio-text fade-in">
+          <div class="section-badge">AI Studio</div>
+          <h2 class="section-title">دماغ البوت<br /><span class="gradient-text">في يدك</span></h2>
+          <p class="section-desc">اكتب تعليمات النظام بلغتك، حدد ما يجب أن يعرفه البوت، وكيف يتصرف مع كل نوع من العملاء</p>
+          <ul class="studio-list">
+            <li><span class="check">✅</span> تحديد نبرة الصوت والأسلوب</li>
+            <li><span class="check">✅</span> سيناريوهات البيع والاعتراضات</li>
+            <li><span class="check">✅</span> دعم اللهجات المحلية والفرنسية</li>
+            <li><span class="check">✅</span> تحديثات فورية بدون كود</li>
+            <li><span class="check">✅</span> معاينة مباشرة قبل النشر</li>
+          </ul>
+          <a href="#" class="btn-primary" style="display:inline-flex;margin-top:1.5rem">جرّب الاستوديو 🧠</a>
+        </div>
+        <div class="studio-visual fade-in">
+          <div class="editor-card">
+            <div class="editor-header">
+              <div class="editor-dots"><span></span><span></span><span></span></div>
+              <span class="editor-title">🧠 System Prompt Editor</span>
+              <div class="editor-badge">LIVE</div>
+            </div>
+            <div class="editor-body">
+              <div class="editor-label">تعليمات النظام</div>
+              <div class="editor-text">
+                <span class="token-key">أنت</span> بائع محترف يعمل لمتجر إلكتروني جزائري.<br/>
+                <span class="token-str">نبرتك:</span> ودود، محترف، مباشر.<br/>
+                <span class="token-str">اللغة:</span> الدارجة الجزائرية أو الفرنسية حسب العميل.<br/>
+                <span class="token-key">هدفك:</span> إتمام البيع وحل المشكلات بسرعة.<br/>
+                <span class="token-num">لا تعطي أسعاراً</span> خارج الكتالوج.<br/>
+                <span class="cursor-blink">|</span>
+              </div>
+            </div>
+            <div class="editor-footer">
+              <button class="ed-btn ed-save">💾 حفظ</button>
+              <button class="ed-btn ed-preview">👁️ معاينة</button>
+            </div>
+          </div>
+          <div class="studio-glow"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DASHBOARD SECTION ===== -->
+  <section class="dashboard-section section" id="dashboard">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">الإحصائيات</div>
+        <h2 class="section-title">تحكم كامل في أداء بوتك</h2>
+        <p class="section-desc">لوحة تحكم ذكية تعطيك رؤية شاملة في الوقت الفعلي</p>
+      </div>
+      <div class="big-dashboard fade-in">
+        <div class="bd-sidebar">
+          <div class="bd-nav-item active">📊 لوحة التحكم</div>
+          <div class="bd-nav-item">💬 المحادثات</div>
+          <div class="bd-nav-item">🛍️ الطلبات</div>
+          <div class="bd-nav-item">🧠 AI Studio</div>
+          <div class="bd-nav-item">⚙️ الإعدادات</div>
+        </div>
+        <div class="bd-content">
+          <div class="bd-kpis">
+            <div class="kpi-card">
+              <div class="kpi-icon">💬</div>
+              <div class="kpi-data">
+                <div class="kpi-num counter" data-target="1247">0</div>
+                <div class="kpi-label">محادثة اليوم</div>
+              </div>
+              <div class="kpi-badge up">↑ 12%</div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-icon">🤖</div>
+              <div class="kpi-data">
+                <div class="kpi-num counter" data-target="94">0</div>
+                <div class="kpi-label">% ذكاء اصطناعي</div>
+              </div>
+              <div class="kpi-badge up">↑ 3%</div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-icon">🛒</div>
+              <div class="kpi-data">
+                <div class="kpi-num counter" data-target="287">0</div>
+                <div class="kpi-label">طلب مكتمل</div>
+              </div>
+              <div class="kpi-badge up">↑ 8%</div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-icon">⭐</div>
+              <div class="kpi-data">
+                <div class="kpi-num">4.8</div>
+                <div class="kpi-label">رضا العملاء</div>
+              </div>
+              <div class="kpi-badge up">↑ 0.2</div>
+            </div>
+          </div>
+          <div class="bd-chart-area">
+            <div class="bd-chart-label">المحادثات - آخر 7 أيام</div>
+            <div class="bd-bars">
+              <div class="bd-bar-wrap"><div class="bd-bar" style="height:45%"></div><span>سبت</span></div>
+              <div class="bd-bar-wrap"><div class="bd-bar" style="height:60%"></div><span>أحد</span></div>
+              <div class="bd-bar-wrap"><div class="bd-bar" style="height:50%"></div><span>اثن</span></div>
+              <div class="bd-bar-wrap"><div class="bd-bar" style="height:80%"></div><span>ثلا</span></div>
+              <div class="bd-bar-wrap"><div class="bd-bar" style="height:70%"></div><span>أرب</span></div>
+              <div class="bd-bar-wrap"><div class="bd-bar highlight" style="height:95%"></div><span>خمي</span></div>
+              <div class="bd-bar-wrap"><div class="bd-bar" style="height:75%"></div><span>جمع</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== INTEGRATIONS ===== -->
+  <section class="integrations section" id="integrations">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">التكاملات</div>
+        <h2 class="section-title">تكامل مع منصاتك المفضلة</h2>
+        <p class="section-desc">باستخدام واجهات برمجة التطبيقات الرسمية فقط من Meta</p>
+      </div>
+      <div class="integrations-grid">
+        <div class="int-card fade-in">
+          <div class="int-icon" style="background:#1877F2">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="white"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </div>
+          <h3>Facebook</h3>
+          <p>Messenger API رسمي</p>
+        </div>
+        <div class="int-card fade-in">
+          <div class="int-icon" style="background:linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888)">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="white"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+          </div>
+          <h3>Instagram</h3>
+          <p>Instagram DM API</p>
+        </div>
+        <div class="int-card fade-in">
+          <div class="int-icon" style="background:#25D366">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          </div>
+          <h3>WhatsApp</h3>
+          <p>WhatsApp Business API</p>
+        </div>
+        <div class="int-card fade-in">
+          <div class="int-icon" style="background:#0084FF">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="white"><path d="M12 0C5.373 0 0 4.975 0 11.111c0 3.497 1.745 6.616 4.472 8.652V24l4.086-2.242c1.09.301 2.246.464 3.442.464 6.627 0 12-4.975 12-11.111S18.627 0 12 0zm1.193 14.963l-3.056-3.259-5.963 3.259 6.554-6.963 3.13 3.259 5.889-3.259-6.554 6.963z"/></svg>
+          </div>
+          <h3>Messenger</h3>
+          <p>Facebook Messenger</p>
+        </div>
+      </div>
+      <div class="security-badge fade-in">
+        🔒 نستخدم فقط <strong>Meta Official APIs</strong> — حسابك آمن 100%
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRICING ===== -->
+  <section class="pricing section" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">الأسعار</div>
+        <h2 class="section-title">أسعار شفافة، بدون مفاجآت</h2>
+        <p class="section-desc">ادفع فقط مقابل ما تستخدمه — لا عقود، لا التزامات مخفية</p>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card fade-in">
+          <div class="pricing-badge-top">الأكثر شعبية</div>
+          <div class="pricing-name">الخطة الأساسية</div>
+          <div class="pricing-price"><span class="price-num">900</span><span class="price-curr">DA/شهر</span></div>
+          <div class="pricing-desc">مثالي للمتاجر الناشئة</div>
+          <ul class="pricing-features">
+            <li>✅ 1,000 رسالة شهرياً</li>
+            <li>✅ AI Studio كامل</li>
+            <li>✅ لوحة تحكم + إحصائيات</li>
+            <li>✅ Facebook + Instagram</li>
+            <li>✅ دعم اللهجة الجزائرية</li>
+            <li>✅ دعم تقني 24/7</li>
+          </ul>
+          <div class="pricing-extra">رسائل إضافية: <strong>1 DA/رسالة</strong></div>
+          <a href="#" class="btn-primary" style="width:100%;justify-content:center;margin-top:1.5rem">ابدأ الآن</a>
+        </div>
+        <div class="pricing-card pro fade-in">
+          <div class="pricing-badge-top pro">للمحترفين</div>
+          <div class="pricing-name">الخطة الاحترافية</div>
+          <div class="pricing-price"><span class="price-num">2,500</span><span class="price-curr">DA/شهر</span></div>
+          <div class="pricing-desc">للمتاجر ذات الحجم المتوسط</div>
+          <ul class="pricing-features">
+            <li>✅ 5,000 رسالة شهرياً</li>
+            <li>✅ كل مميزات الأساسية</li>
+            <li>✅ WhatsApp Business</li>
+            <li>✅ تقارير متقدمة</li>
+            <li>✅ تكامل كتالوج المنتجات</li>
+            <li>✅ مدير حساب مخصص</li>
+          </ul>
+          <div class="pricing-extra">رسائل إضافية: <strong>0.7 DA/رسالة</strong></div>
+          <a href="#" class="btn-primary" style="width:100%;justify-content:center;margin-top:1.5rem">ابدأ الآن</a>
+        </div>
+        <div class="pricing-card fade-in">
+          <div class="pricing-badge-top enterprise">للمؤسسات</div>
+          <div class="pricing-name">Enterprise</div>
+          <div class="pricing-price"><span class="price-num">تواصل</span><span class="price-curr">معنا</span></div>
+          <div class="pricing-desc">للمتاجر الكبرى والسلاسل</div>
+          <ul class="pricing-features">
+            <li>✅ رسائل غير محدودة</li>
+            <li>✅ كل المنصات</li>
+            <li>✅ API مخصص</li>
+            <li>✅ خادم مخصص</li>
+            <li>✅ تدريب على بياناتك</li>
+            <li>✅ SLA مضمون 99.9%</li>
+          </ul>
+          <div class="pricing-extra">&nbsp;</div>
+          <a href="#" class="btn-outline" style="width:100%;justify-content:center;margin-top:1.5rem">تواصل معنا</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DEMO / CHAT ===== -->
+  <section class="demo-section section" id="demo">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">معاينة</div>
+        <h2 class="section-title">جرّب البوت الآن</h2>
+        <p class="section-desc">اختبر كيف سيرد البوت على عملائك بالدارجة الجزائرية</p>
+      </div>
+      <div class="demo-inner">
+        <div class="chat-widget fade-in">
+          <div class="chat-header">
+            <div class="chat-avatar">🤖</div>
+            <div class="chat-info">
+              <div class="chat-name">بوت المتجر</div>
+              <div class="chat-status"><span class="online-dot"></span> متصل الآن</div>
+            </div>
+          </div>
+          <div class="chat-messages" id="chatMessages">
+            <div class="msg bot">
+              السلام عليكم! أنا بوت المتجر، كيف نقدر نساعدك؟ 😊
+            </div>
+          </div>
+          <div class="chat-input-area">
+            <input type="text" id="chatInput" class="chat-input" placeholder="اكتب سؤالك هنا..." />
+            <button class="chat-send" id="chatSend">إرسال ➤</button>
+          </div>
+        </div>
+        <div class="demo-suggestions fade-in">
+          <div class="sugg-title">أسئلة مقترحة:</div>
+          <button class="sugg-btn" onclick="sendSugg(this)">كم سعر الشحن؟</button>
+          <button class="sugg-btn" onclick="sendSugg(this)">واش عندكم منتج ...؟</button>
+          <button class="sugg-btn" onclick="sendSugg(this)">كيفاش نرجع منتج؟</button>
+          <button class="sugg-btn" onclick="sendSugg(this)">فين متجركم؟</button>
+          <button class="sugg-btn" onclick="sendSugg(this)">وقت التوصيل قداه؟</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="faq section" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">الأسئلة الشائعة</div>
+        <h2 class="section-title">لديك أسئلة؟</h2>
+        <p class="section-desc">إجابات شاملة على أكثر ما يُسأل عنه</p>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item fade-in">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            ما الفرق بين Chatbot DZ وغيره من الشات بوت؟
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-a">
+            Chatbot DZ مصمم خصيصاً للسوق الجزائري. يدعم الدارجة، يفهم سياق التجارة الإلكترونية المحلية، ويتكامل مع طرق الدفع الجزائرية. ليس مجرد بوت عام، بل موظف مبيعات مُدرَّب على واقعك.
+          </div>
+        </div>
+        <div class="faq-item fade-in">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            هل يدعم البوت اللهجة الجزائرية (الدارجة)؟
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-a">
+            نعم بالكامل! البوت يستطيع الرد بالدارجة الجزائرية، الفرنسية، أو العربية الفصحى حسب كيفية كتابة العميل. يمكنك أيضاً تحديد اللغة الافتراضية من الاستوديو.
+          </div>
+        </div>
+        <div class="faq-item fade-in">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            هل أحتاج إلى خبرة تقنية لاستخدامه؟
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-a">
+            لا إطلاقاً! الإعداد بسيط جداً. تكتب تعليماتك بالعربية العادية في AI Studio، وتنشر مع منصات التواصل بضغطة زر. لا برمجة، لا كود، لا مشاكل تقنية.
+          </div>
+        </div>
+        <div class="faq-item fade-in">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            كيف يتم الربط مع فيسبوك وانستغرام؟
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-a">
+            ببساطة: تسجيل الدخول بحساب فيسبوك الخاص بمتجرك، تحديد الصفحة أو الحساب، والنشر بضغطة واحدة. نستخدم Meta Official APIs فقط لضمان أمان حسابك.
+          </div>
+        </div>
+        <div class="faq-item fade-in">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            هل بياناتي ومعلوماتي آمنة؟
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-a">
+            نعم 100%. نستخدم خوادم آمنة مع تشفير SSL كامل. لا نشارك بياناتك مع أي طرف ثالث. بيانات عملائك ومحادثاتهم تبقى خاصة بمتجرك فقط.
+          </div>
+        </div>
+        <div class="faq-item fade-in">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            ما طرق الدفع المتاحة؟
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-a">
+            نقبل: CIB (بطاقة بريد الجزائر)، Edahabia، BaridiMob، والتحويل البنكي. سنضيف قريباً المزيد من طرق الدفع المحلية.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FINAL CTA ===== -->
+  <section class="final-cta">
+    <div class="container">
+      <div class="cta-inner fade-in">
+        <h2>ابدأ تدريب بوتك اليوم</h2>
+        <p>انضم إلى أكثر من 500 متجر جزائري يبيعون بذكاء مع Chatbot DZ</p>
+        <div class="cta-btns">
+          <a href="#" class="btn-white">جرّب مجاناً 14 يوم 🚀</a>
+          <a href="#" class="btn-outline-white">تواصل مع فريقنا</a>
+        </div>
+        <div class="cta-note">لا بطاقة بنكية مطلوبة • إلغاء في أي وقت</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo" style="margin-bottom:1rem">
+            <div class="logo-icon">🤖</div>
+            <span class="logo-text" style="color:#fff">Chatbot <span class="logo-accent">DZ</span></span>
+          </div>
+          <p class="footer-desc">منصة ذكاء اصطناعي متخصصة للتجارة الإلكترونية الجزائرية. درّب بوتك، بع أكثر.</p>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="فيسبوك">📘</a>
+            <a href="#" class="social-link" aria-label="انستغرام">📸</a>
+            <a href="#" class="social-link" aria-label="تيليغرام">✈️</a>
+            <a href="#" class="social-link" aria-label="يوتيوب">▶️</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>المنتج</h4>
+          <a href="#features">المميزات</a>
+          <a href="#ai-studio">AI Studio</a>
+          <a href="#pricing">الأسعار</a>
+          <a href="#demo">معاينة</a>
+        </div>
+        <div class="footer-col">
+          <h4>الشركة</h4>
+          <a href="#">من نحن</a>
+          <a href="#">المدونة</a>
+          <a href="#">الشراكات</a>
+          <a href="#">التوثيق</a>
+        </div>
+        <div class="footer-col">
+          <h4>تواصل معنا</h4>
+          <a href="#">info@chatbotdz.com</a>
+          <a href="#">سياسة الخصوصية</a>
+          <a href="#">شروط الاستخدام</a>
+          <a href="#">الدعم التقني</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="payment-methods">
+          <span class="payment-badge">CIB</span>
+          <span class="payment-badge">Edahabia</span>
+          <span class="payment-badge">BaridiMob</span>
+        </div>
+        <div class="footer-copy">© 2025 Chatbot DZ — جميع الحقوق محفوظة</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
